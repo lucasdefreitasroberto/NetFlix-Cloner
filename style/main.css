@@ -1,0 +1,90 @@
+:root {
+  --vermelho: #e50914;
+  --preta: #141414;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Elemento Base */
+body {
+  background: var(--preta);
+  font-family: 'Arial', Times, serif;
+  color: white;
+}
+
+header .conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  color: var(--vermelho);
+  font-family: arial black;
+  font-size: 40px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+header .logo:hover {
+  transition: 0.3s ease-in-out;
+  font-size: 49px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #aaa;
+  
+  margin-right: 10px;
+}
+header nav a:hover {
+    color: #fff;
+  font-size: 20px;
+  transition: 0.3s ease all;
+}
+/* Filme Principal */
+
+.filme-principal {
+  font-size: 17px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/img/Homem-Aranha-SemVoltaParaCasa2");
+  height: 850px;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filme-principal .descricao {
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.filme-principal .titulo {
+  margin-top: 15%;
+  font-size: 40px;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+.botao {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+
+  padding: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+.botao:hover {
+  background-color: white;
+  color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
