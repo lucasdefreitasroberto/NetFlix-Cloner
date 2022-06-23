@@ -11,7 +11,7 @@
 /* Elemento Base */
 body {
   background: var(--preta);
-  font-family: 'Arial', Times, serif;
+  font-family: "Arial", Times, serif;
   color: white;
 }
 
@@ -29,18 +29,18 @@ header .logo {
   cursor: pointer;
 }
 header .logo:hover {
-  transition: 0.3s ease-in-out;
-  font-size: 49px;
+  transition: 0.3s ease all;
+  font-size: 41px;
 }
 
 header nav a {
   text-decoration: none;
   color: #aaa;
-  
+
   margin-right: 10px;
 }
 header nav a:hover {
-    color: #fff;
+  color: #fff;
   font-size: 20px;
   transition: 0.3s ease all;
 }
@@ -50,7 +50,6 @@ header nav a:hover {
   font-size: 17px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("/img/Homem-Aranha-SemVoltaParaCasa2");
-    /*  */
   height: 850px;
   background-size: cover;
 
@@ -86,6 +85,12 @@ header nav a:hover {
   color: black;
 }
 
-.botao i{
-    margin-right: 8px;
+.botao i {
+  margin-right: 8px;
+}
+
+.box-filme {
+  height: 100%;
+  width: 100%;
+  display: block;
 }
